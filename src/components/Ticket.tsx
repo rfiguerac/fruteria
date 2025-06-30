@@ -14,7 +14,7 @@ export const Ticket = ({ product, handleDeleteProduct }: Props) => {
           <Row>
             <Col className="col-lg-6">
             <p>{product.name}</p>
-            u {product.cantidad} X {product.precio} = {product.cantidad * product.precio}
+            u {product.cantidad} X {product.precio.toFixed(2)} = {product.cantidad * product.precio}
             </Col>
 
             <Col>
