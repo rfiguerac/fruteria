@@ -93,7 +93,7 @@ const handleAddProduct = (prod: Product) => {
             </Col>
           </Row>
           <Row>
-            <Col>Total : {total} €</Col>
+            <Col>Total : {total.toFixed(2)} €</Col>
           </Row>
         </Col>
       </Row>
